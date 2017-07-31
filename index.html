@@ -2,10 +2,240 @@
 <html>
 <head>
    <meta charset="utf-8">
-   <title></title>
-   <link href="css/base.css" rel="stylesheet">
-   <link href="css/main.css" rel="stylesheet">
    <title>Arvo Pärt</title>
+   <style media="screen" type="text/css">
+ /* {
+   border: 3px solid red;
+} */
+
+html body{
+  font-size: 16px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font: inherit;
+}
+
+h1{
+  font-family: futura;
+  color: white;
+  font-size: 12vw;
+  text-align: left;
+  margin-left: 10vw;
+  margin-top: 20vw;
+}
+
+h2 {
+  font-family: futura;
+  color: white;
+  font-size: 3vw;
+  text-align: left;
+  margin-left: 21vw;
+  margin-top:-2vw;
+  padding: 0px;
+}
+
+.container {
+  background-image: url("https://farm9.staticflickr.com/8565/15786900410_0e19d8a5df_b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 850px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(68, 68, 68, 0.8);
+  width: 100%;
+  text-align: left;
+  position: fixed;
+
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a{
+  display: block;
+  color: white;
+  font-size: 2vw;
+  font-family: "Gill Sans";
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(150, 150, 150);
+}
+
+.container2 {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container2 blockquote {
+  width: 54%;
+  text-align: left;
+  margin-top: 10vw;
+  margin-left: 20vw;
+  font-family: "Gill Sans";
+  font-size: 3vw;
+  line-height: 4vw;
+  font-weight: lighter;
+}
+
+.container2 blockquote:before {
+  display: block;
+  font-family: "Times New Roman";
+  content: "\201C";
+  font-size: 20vw;
+  color: #7a7a7a;
+  position: absolute;
+  margin-left: -10vw;
+}
+
+.container2 blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+.container2 blockquote cite {
+  text-align: right;
+  font-family: "Gill Sans";
+  font-size: 3vw;
+  font-weight: lighter;
+  margin-left: 36vw;
+}
+
+.container3 {
+  background-image: url("https://farm3.staticflickr.com/2929/33668370731_eff16a9fcd_o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container3 ol li{
+  display: list-item;
+  font-family: "Gill Sans";
+  font-size: 1.6vw;
+  font-weight: lighter;
+  color: white;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+  width: 30vw;
+  margin-left:10vw;
+  margin-top: 4vw;
+}
+
+.container3 ol{
+  margin-top: 10vw;
+}
+
+.container3 b {
+  font-weight: bolder;
+}
+
+.container4 {
+  background-image: url(https://farm2.staticflickr.com/1609/25518718885_a046e23728_o.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container4 h2{
+  color: black;
+  margin-top: 8vw;
+  margin-left: 10vw;
+  font-size: 8vw;
+}
+
+.container4 blockquote{
+  font-family:"Gill Sans";
+  font-size: 1.4vw;
+  width: 50%;
+  color:black;
+  margin-left: 10vw;
+  margin-top: 4vw;
+  line-height:2vw;
+  text-indent: 2vw;
+}
+
+.container4 blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+.container4 blockquote cite {
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 5vw;
+}
+
+#p2 {
+  margin-top: 10vw;
+}
+
+.container5 {
+  background-image: url("https://farm8.staticflickr.com/7273/8153412464_ef23402bcf_o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 130vw;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.container5 blockquote{
+  font-family:"Gill Sans";
+  font-size: 1.4vw;
+  width: 50%;
+  color:black;
+  margin-left: 10vw;
+  line-height:2vw;
+  text-indent: 2vw;
+}
+
+.container5 blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+#p1 blockquote cite {
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 5vw;
+}
+
+.container5 ol li{
+  display: list-item;
+  color: black;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+  width: 30vw;
+}
+
+#p2 cite {
+  position:absolute;
+  margin-left: 40vw;
+}
+
+}
+   </style>
+
 </head>
 <body>
    <div class="container">
@@ -17,19 +247,53 @@
             <li><a href="about.asp">About</a></li>
          </ul>
       </nav>
-   <h1> Arvo Pärt</h1>
+   <h1> Alina</h1>
+   <h2> by Arvo Pärt </h2>
    </div>
    <div class="container2">
-      <p id="portquotes">
-      &ldquo; I could compare my music to white light which contains all colours. Only a prism can divide the colours and make them appear; this prism could be the spirit of the listener. &rdquo;
-      </p>
-      <p id=author>
-      &mdash;Arvo Pärt
-      </p>
+      <blockquote>
+   I could compare my music to white light which contains all colours. Only a prism can divide the colours and make them appear; this prism could be the spirit of the listener.
+      <cite>Arvo Pärt</cite>
+      </blockquotes>
    </div>
    <div class="container3">
+      <ol start="1">
+         <li><b>Spiegel im Spiegel, 10:36</b> <br>Vladimir Spivakov, violin <br>Sergej Bezrodny, piano </li>
+         <li><b>Für Alina, 10:47 </b><br>Alexander Malter, piano <br>Spiegel im Spiegel, 9:12 <br>Dietmar Schwalke, violoncello <br> Alexander Malter, piano </li>
+         <li><b>Für Alina, 10:53 </b> <br>Alexander Malter, piano </li>
+         <li><b>Spiegel im Spiegel, 9:48</b> <br>Vladimir Spivakov, violin <br>Sergej Bezrodny, piano </li>
+      </ol>
    </div>
-
+   <div class="container4">
+      <h2>Reviews</h2>
+      <blockquote id=p1>
+         Arvo Pärt is a living national treasure to Estonia, and this album reveals such intimate access to his faith, sadness, and humility. Structured in five parts, Alina is a simple, chilling invocation of heartfelt desire comprised of only two movements that alternate with subtle variation. The opening lullaby of “Spiegel im Spiegel” is a gentle and melancholy embrace between Sergej Bezrodney on piano and Vladimir Spivakov on violin, where every note steps gracefully forward, as if ascending a fragile staircase. In contrast, the two movements of “Für Alina” leave a little room for structured improvisation, as the top note in each chord is left for the performer to, as Pärt puts it, “explore within themselves.” Thus, Alexander Malter deserves special recognition for breathing such mournful sweetness into these passages through every fingertip; every delicate cluster of notes shines like a distant star through a wintery black night. Malter stays on for the middle section of “Spiegel im Spiegel” and, with violoncello from Dietmar Schwalke, adds a more somber deliberateness to the piece that pianist Bezrodney shies away from in his performances (tracks one and five), instead opting for restrained tenderness. The disc closes much in the same way it opens: as if a prayer of deepest longing were just whispered into the still air. Frequent ECM producer Manfred Eicher calls upon his usual strengths, by letting the instruments speak for themselves in the right acoustical settings — less is certainly more, and the stark beauty of Alina comes partly from what we hear between the notes: such a rich and gorgeous silence. This is perhaps one of Pärt’s finest releases on compact disc, though one of his quietest. These are the tears of ghosts.
+         <cite>All Music</cite>
+      </blockquote>
+   </div>
+   <div class=container5>
+      <blockquote id=p2>
+         <p>When this album was first released I was already a longtime listener of Arvo Pärt and quite accustomed to experiencing his sound in large-scale form. The grandiosity of other seminal ECM recordings, such as his popular Te Deum and epic Passio, left me with a vision of a composer with vast canvases to fill. Alina changed all that when I loaded it into my CD player, only to hear the most sublime understatement to ever issue from my speakers. Says Pärt, “I could compare my music to white light which contains all colours. Only a prism can divide the colours and make them appear; this prism could be the spirit of the listener.” And indeed, this album is a mise-en-abyme of airy beauty.</p><br>
+         <p>Tripartite structures abound in Alina.</p><br>
+         <p>First, they form the guiding principle of Pärt’s musical ideology, which embraces the triad as alpha and omega. It is no coincidence, then, that the album’s title piece marked the inauguration of his “tintinnabuli style,” which has since been his calling card, as it were, in a genre-hungry marketplace. Originally a two-minute piece, its extended treatment here peels away layers of possibility residing in the score. Recorded in the presence of the composer, each repetition seeks its own segue into silence.</p><br>
+         <p>Second, the tracks are symmetrically ordered:</p>
+         <ol>
+             <li>Spiegel im Spiegel (violin and piano)</li>
+             <li>Für Alina (solo piano)</li>
+             <li>Spiegel im Spiegel (cello and piano)</li>
+             <li>Für Alina (solo piano)</li>
+             <li>Spiegel im Spiegel (violin and piano) </li>
+         </ol><br>
+         <p>
+         This rigidity ensures that any complex posturing is shunned in favor of direct communion. Despite their sparse instrumentation, the three versions of Spiegel im Spiegel comprise Pärt’s most spacious statement ever committed to disc. Each is like an edge of his metaphorical prism, bending light into hues that one can almost taste in the listening. One might easily criticize this approach as a halfhearted attempt to fill a disc were it not for the profound indeterminacy throughout. It is in this sense that the cello in the central incarnation sighs like an exhausted organ sending its final pulses straight into the heart of a period passed in quiet humility.
+         </p><br>
+         <p>
+         Third, the album is situated at the intersection of three planes of existence: the spatial, the bodily, and the vibrational. The piano’s own resonant interior speaks precisely of its external effect, thereby establishing a striking continuity between the details of its construction and the boundless receptacle that is the listener’s mind. The music speaks, because it knows no other way of communicating. It is the voice that whispers at the edge of sleep, that ever so slightly indecipherable instinct at the heart of selfless wishes.
+         </p><br>
+         <p>As I listen to this album again, the patter of raindrops outside my window provides a fitting backdrop to the sheer grace of its first arpeggios. This weather lends the music a liquid shield around every note, turning each into an earthbound droplet. Alina is filled with more emptiness than substance, all the while forming through that emptiness a substance far greater than its own vocabulary can express. It enacts a unique sort of transfiguration which, through the quietude of its own coalescence, ends up turning into itself.</p>
+         <cite>ECM</cite>
+         </blockquote>
+   </div>
 </body>
 </html>
 
